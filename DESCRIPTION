@@ -1,0 +1,24 @@
+Package: spacetimegp
+Title: Practical considerations for Gaussian Process modeling for causal inference quasi-experimental studies with panel data
+Version: 0.1.0
+Authors@R: 
+    person("Sofia", "Vega", email = "sofialeighvega@gmail.com", role = c("aut", "cre"))
+Description: Practical considerations for Gaussian Process modeling for causal inference quasi-experimental studies with panel data
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    tidyverse,
+    rstan,
+    ggplot2,
+    dplyr,
+    tidyr,
+    purrr,
+    magrittr,
+    knitr,
+    rmarkdown
+Suggests:
+    testthat,
+    devtools,
+    roxygen2 
